@@ -30,7 +30,8 @@ face_recognition/：人脸识别相关代码，包括：CSV 文件创建、Haar 
 1️⃣ 开发环境：
 Visual Studio 2022
 [OpenCV 4.1.0（官网下载）](https://opencv.org/releases/)
-[opencv_contrib](https://github.com/opencv/opencv_contrib)
+
+opencv 拓展模块：[opencv_contrib](https://github.com/opencv/opencv_contrib)
 
 2️⃣ OpenCV 配置（CMake 构建）
 安装 CMake 并构建 OpenCV：
@@ -54,8 +55,9 @@ VS 项目配置：
 #include <opencv2/face.hpp>
 
 3️⃣ DNN 人脸检测模型
-本项目使用 OpenCV 官方提供的 DNN 模型：
+本项目使用的当前使用的两个DNN模型：
 [DNN 人脸检测模型](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt)
+
 [下载 Caffe 模型](https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel)
 
 ⚡ 适用范围与局限性
