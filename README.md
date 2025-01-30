@@ -98,9 +98,9 @@ VS 项目配置：
 
 本项目当前使用的两个DNN模型：
 
-[DNN 人脸检测模型](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt)
+[deploy.prototxt模型](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt)
 
-[下载 Caffe 模型](https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel)
+[res10_300x300_ssd_iter_140000.caffemodel模型](https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel)
 
 
 ⚡ 适用范围与局限性
