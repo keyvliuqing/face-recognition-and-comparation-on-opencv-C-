@@ -34,7 +34,7 @@ FaceCompare.exe：用于导入两张人脸图片并判断是否为同一人（�
 
 2️⃣ src/ (源码文件)
 
-包含项目的完整源码，供学习交流：
+包含项目的完整源码，供学习交流。
 
 dnndetection.cpp & haardetection.cpp：人脸检测相关代码。
 
@@ -71,6 +71,8 @@ Configure → 选择 Visual Studio x64（根据你电脑的版本）→ Finish
 Generate → Open Project
 
 在 Visual Studio 中：
+
+选择release（后续开发环境也是release）
 
 运行 ALL_BUILD
 
