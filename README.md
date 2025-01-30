@@ -44,9 +44,9 @@ face_recognition/：人脸识别相关代码，包括：CSV 文件创建、Haar 
 
 采用 Visual Studio 三段封装（头文件 + 源文件 + main 函数）
 
-💻 运行环境
+💻 自行搭建开发环境流程
 
-1️⃣ 开发环境：
+1️⃣ 以本项目采用的环境为例：
 
 Visual Studio 2022
 
@@ -64,7 +64,7 @@ Source 选择 OpenCV 源码路径
 
 Build 选择 目标构建路径
 
-Configure → 选择 Visual Studio x64 → Finish
+Configure → 选择 Visual Studio x64（根据你电脑的版本）→ Finish
 
 勾选 BUILD_opencv_world（简化 VS 的库链接）
 
@@ -94,11 +94,12 @@ VS 项目配置：
 
 3️⃣ DNN 人脸检测模型
 
-本项目使用的当前使用的两个DNN模型：
+本项目当前使用的两个DNN模型：
 
 [DNN 人脸检测模型](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt)
 
 [下载 Caffe 模型](https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel)
+
 
 ⚡ 适用范围与局限性
 
